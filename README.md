@@ -18,5 +18,9 @@ bankon/
 ```
 
 ```bash
+npx create-next-app@latest bankon
+cd bankon
+npm install next @rainbow-me/rainbowkit wagmi ethers @web3auth/web3auth
 npm run dev
+```
 

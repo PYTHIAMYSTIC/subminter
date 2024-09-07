@@ -2,7 +2,7 @@
 unstoppable domains subdomain minter<br />
 
 ```
-bankon/
+subminter/
 ├── components/
 │   └── WalletConnect.js
 ├── pages/
@@ -18,9 +18,20 @@ bankon/
 ```
 
 ```bash
-npx create-next-app@latest bankon
-cd bankon
+npx create-next-app@latest subminter
+cd subminter
 npm install next @rainbow-me/rainbowkit wagmi ethers @web3auth/web3auth
 npm run dev
 ```
 
+
+
+----
+troubleshoot / update
+```bash
+node -v
+npm -v
+npx -v
+npm install -g npm
+npm cache clean -f
+```

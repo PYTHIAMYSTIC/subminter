@@ -16,3 +16,7 @@ bankon/
 ├── package.json
 └── next.config.js
 ```
+
+```bash
+npm run dev
+

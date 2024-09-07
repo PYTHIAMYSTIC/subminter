@@ -34,4 +34,6 @@ npm -v
 npx -v
 npm install -g npm
 npm cache clean -f
+npm fund
+npm audit
 ```

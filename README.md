@@ -35,5 +35,7 @@ npx -v
 npm install -g npm
 npm cache clean -f
 npm fund
-npm audit
+npm audit fix
+npm audit fix --force
+
 ```
